@@ -1,0 +1,372 @@
+@media (max-width: 768px){
+    /* section1 */
+    .Hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        position: relative;
+    }
+    h1{
+        font-size: 54px;
+        color: #292929; 
+        margin-top: 250px;  
+    } 
+    .info{
+        position: absolute;
+        width: 97.3%;
+        height: 20vh;
+        top: 12%;
+        transform: translateY(-100%);
+    } 
+    .but{
+        position: relative;
+        display: flex;align-items: center;
+        justify-content: space-between;
+        top: 85%;
+    }
+    /* section 2 */
+    .reputation{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+     
+     }
+     .reputation-title{
+        text-align: center  ;
+     }
+     .rep{
+        width: 80%;
+        height: 180px;
+        border: #E0E3EB solid 2PX;
+     }
+     /* section3 */
+     .presentation{
+        display: contents;
+        padding: 20px;
+    }
+    .pdp{
+        width: 100%;
+        box-shadow: 0px 20px 20px -4px rgba(17, 24, 39, 0.1); 
+        border-radius: 1px;
+    }
+    .name{
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    /* section 4 */
+    .Actus{
+        background-color:#F6F8F7;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin-top: 200px;
+    }
+    .box1{ 
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    .box2{
+        width: 100%;
+        background-color:#2947A9;
+        margin-top: 110px;
+    }
+    .box3{
+        width: 100%;
+    }
+    .box4{
+        width: 100%;
+        margin-top: 110px;
+    }
+
+    /* section5 */
+    .Temoingnage{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .div1{  
+        width: 90%;
+    }
+    .div2{
+        margin-left: 10px;
+    }
+    .bigletter{
+        font-size:48px ;
+        margin-top: 50px;
+    }
+    .litleletter{
+        font-size: 18px;
+    }
+
+    /* section6 */
+    .consultation{
+        background-image: url(unsplash_MP0bgaS_d1c.png);
+        margin-top: 170px;
+    }
+    .btitle{
+        font-size: 28px;
+    }
+    .ltitle{
+        font-size: 20px;
+    }
+    .btn3{
+        width: 55%;
+        height: 53px;  
+    }
+
+/* section7 */
+ol li{
+    font-size: 20px;
+}
+    .titlepho{
+        font-size: 18px;
+    }
+    .subtitlepho{
+        font-size: 12px;
+    }
+    .toph{
+       width: 100%;
+    }
+    .prodletter{
+        width: 100%;
+        height: 12%;
+    }
+    .btnprod{
+        width:65%;
+        height: 8%;
+    }
+    /* footer */
+    .footer1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .contact{
+        width: 100%;
+    } 
+}
+@media (max-width:375px){
+    .nav{
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+    }
+    ul li{
+        display: inline;
+    }
+    /* section1 */
+    h1{
+        font-size: 46px;
+        color: #292929;   
+    }
+    .info{
+        width: 93.5%;
+        height: 150px;
+        background-color: #3559C7;
+        padding: 20px 10px 0 10px;
+        margin-top: 720px; 
+        align-items: center;
+        justify-content: center; 
+    }
+    
+    /* selection2 */
+    .reputation{
+        height: 700px;
+        display: grid;
+        grid-template-columns: 1fr ;
+     }
+     .rep{
+        height: 60%;
+        width: 70%;;
+        margin-left: 30px;
+     }
+     .name{
+        width: 95%;
+        height: 510px;
+        margin-left: 10px;
+    }
+    .btn1{
+        width: 40%;
+        height: 53px;
+        margin-top: 50px;
+    }
+
+    /* section 4 */
+    .Actus{
+        margin-top: 520px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding-top: 5px;
+    }
+    .box1{
+        height: 160px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .box2{
+        height: 160px;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .box3{
+        height: 160px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .box4{
+        height: 160px;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    /* section 5 */
+    .Temoingnage{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .image{
+        width:90% ;
+        margin-left: 5px;
+    }
+    .div2{
+        margin-bottom: 50px;
+    }
+    .bigletter{
+        font-size:46px ;
+        margin-top: 50px;
+    }
+    .litleletter{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    /* section6 */
+    .consultation{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .b{
+        margin-bottom: 30px;
+    }
+    .btitle{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .ltitle{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .btn3{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+
+    /* section7 */
+    .highlight{
+        display: contents;
+    }
+    .all{
+        font-size: 20x;
+        margin-bottom: 100px;
+        margin-left: 66px;
+    }
+    .namepro{
+        padding-top: 5px; 
+    }
+    ol li{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .prod-box{
+        display: contents;
+        padding: 0;
+    }
+    .btnprod{
+        width:100%;
+        height: 64px;
+        margin-left: 5px;
+    }
+    .btnbtn{
+        display: contents;
+        
+       
+    
+    }
+    .sary{
+        display: none;
+       
+     
+    }
+
+    /* section8 */
+    .Newsletter{
+        display: contents;
+        background-color: #F6F8F7;
+        padding-top: 30px;
+    }
+    .letternews{
+        width: 100%;
+        padding-top: 80px;
+        
+    }
+    .titlenews{
+        font-size: 18px;
+    }
+   
+    .textnews{
+        font-size: 12px;
+    
+    }
+    .ipt{
+        display: contents;
+        grid-template-columns:1fr;
+        gap: 10px;
+        
+    }
+    .ipttext{
+        width: 100%;
+        height: 41px;
+    }
+    .iptnbr{
+        width: 100%;
+        height: 41px;
+    }
+    .bigipt{
+   
+        width: 100%;
+        padding-top: 10px;
+        background-color: #F6F8F7;
+    }
+    .btn-submit{
+        display: flex;
+        justify-content: center;
+        background-color: #F6F8F7;
+        padding-top: 20px;   
+    }
+
+    /* footer */
+    .footer1{
+        display: contents;
+    }
+    .contact{
+        display: contents;
+    }
+    .tex{
+        width: 100%;
+        font-size: 12px;
+    }
+    .tex2{
+        width: 100%;
+        font-size: 12px;
+    }
+    .news{
+        display: contents;
+    }
+
+    }
+   
+
